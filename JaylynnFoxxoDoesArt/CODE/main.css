@@ -1,0 +1,13 @@
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(100, 100, 100);
+}
+
+body{
+    margin: 0;
+    padding-top: 75px; /* prevents content from hiding behind header */
+}
