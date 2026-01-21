@@ -9,11 +9,12 @@ fetch("https://docs.google.com/spreadsheets/d/e/2PACX-1vSq6agTJEIFBzdBhUPsqenpbA
 
             container.innerHTML +=`
                 <div class="listing">
-                    <img src="${image}" alt="${title}">
+                    <img src="${img1}" alt="${title}">
                     <h2>${title}</h2>
                     <p>$${price}</p>
                     <p>${description}</p>
                 </div>
             `;
         }
+
     });
